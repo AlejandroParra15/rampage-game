@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userinterface.gameController">
+   <center>
+      <Pane fx:id="panelGame" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="spriteMono" fitHeight="161.0" fitWidth="145.0" layoutX="68.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/front.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </center>
+   <top>
+      <Pane prefHeight="145.0" prefWidth="1102.0" style="-fx-background-color: tomato;" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <Pane prefHeight="166.0" prefWidth="1102.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
