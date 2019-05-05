@@ -9,22 +9,22 @@ import threads.threadAnimation;
 public class gameController {
 
 	@FXML
-	private ImageView spriteMono;
+	private ImageView monkeySpray;
 	@FXML
 	private Pane panelGame;
 
-	Image[] lados = new Image[10];
+	Image[] moves = new Image[10];
 
 	public void initialize() {
-		lados[0] = new Image("Images/lado1.png");
-		lados[1] = new Image("Images/lado2.png");
-		lados[2] = new Image("Images/lado3.png");
+		moves[0] = new Image("Images/side1.png");
+		moves[1] = new Image("Images/side2.png");
+		moves[2] = new Image("Images/side3.png");
 		startMove();
 	}
 
 	public void changeImage(int n) {
-		spriteMono.setImage(lados[n]);
-		spriteMono.setLayoutX(spriteMono.getLayoutX()+10);
+		monkeySpray.setImage(moves[n]);
+		monkeySpray.setLayoutX(monkeySpray.getLayoutX()+10);
 	}
 
 	public void startMove() {
