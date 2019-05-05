@@ -13,7 +13,7 @@ public class gameController {
 	@FXML
 	private Pane panelGame;
 
-	Image[] lados = new Image[3];
+	Image[] lados = new Image[10];
 
 	public void initialize() {
 		lados[0] = new Image("Images/lado1.png");

@@ -9,11 +9,7 @@
    <center>
       <Pane fx:id="panelGame" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fx:id="spriteMono" fitHeight="161.0" fitWidth="145.0" layoutX="68.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../Desktop/front.png" />
-               </image>
-            </ImageView>
+            <ImageView fx:id="spriteMono" fitHeight="161.0" fitWidth="1112.0" layoutX="14.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
    </center>
@@ -21,6 +17,10 @@
       <Pane prefHeight="145.0" prefWidth="1102.0" style="-fx-background-color: tomato;" BorderPane.alignment="CENTER" />
    </top>
    <bottom>
-      <Pane prefHeight="166.0" prefWidth="1102.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER" />
+      <ImageView fitHeight="88.0" fitWidth="1108.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../Images/Street.png" />
+         </image>
+      </ImageView>
    </bottom>
 </BorderPane>
